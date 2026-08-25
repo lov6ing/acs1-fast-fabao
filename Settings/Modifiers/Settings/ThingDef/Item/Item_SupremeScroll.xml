@@ -1,94 +1,63 @@
-<ThingDef
-    Type="Item"
-    Name="Item_ACS1_SupremeScroll"
-    Parent="ToolBase">
+<ThingDefs>
+    <List>
 
+        <ThingDef
+            Type="Item"
+            Name="Item_ACS1_SupremeScroll"
+            Parent="ToolBase">
 
-    <ThingName>
-        百万金丹逆天卷轴
-    </ThingName>
+            <ThingName>百万金丹逆天卷轴</ThingName>
 
+            <TexPath>res/Sprs/object/object_fuzhou03b</TexPath>
 
-    <TexPath>
-        res/Sprs/object/object_fuzhou03b
-    </TexPath>
+            <Desc>
+                装备后获得逆天修炼能力。
 
+                百万倍修炼速度。
+                极限炼宝强化。
+                神器概率提升。
+                心境提升。
+            </Desc>
 
-    <Desc>
-        装备后获得逆天修炼能力。
+            <MaxStack>1</MaxStack>
 
-        百万倍修炼速度。
-        极限炼宝强化。
-        神器概率提升。
-        心境提升。
-    </Desc>
+            <Beauty>5</Beauty>
 
+            <Rate>8</Rate>
 
-    <MaxStack>1</MaxStack>
+            <Item Kind="Equipment">
 
+                <BeMade>
 
-    <Beauty>5</Beauty>
+                    <WorkToMake>1</WorkToMake>
 
+                    <Quality>0</Quality>
 
-    <Rate>8</Rate>
+                    <ArtDesc>百万金丹逆天卷轴</ArtDesc>
 
+                    <StuffCategories>
+                        <Stuff name="Wood"/>
+                    </StuffCategories>
 
+                    <CostStuffCount>1</CostStuffCount>
 
-    <Item Kind="Equipment">
+                </BeMade>
 
+                <Equip>
+                    <ToolModifier>ACS1_SupremeCultivationModifier</ToolModifier>
+                </Equip>
 
-        <BeMade>
+            </Item>
 
+            <Element>
+                <Kind>Mu</Kind>
+                <Value>4</Value>
+                <Radius>2</Radius>
+                <Failing>1</Failing>
+                <FailRadius>1</FailRadius>
+            </Element>
 
-            <WorkToMake>1</WorkToMake>
+        </ThingDef>
 
-
-            <Quality>0</Quality>
-
-
-            <ArtDesc>
-                百万金丹逆天卷轴
-            </ArtDesc>
-
-
-            <StuffCategories>
-
-
-                <Stuff name="Wood"/>
-
-
-            </StuffCategories>
-
-
-            <CostStuffCount>1</CostStuffCount>
-
-
-        </BeMade>
-
-
-
-        <Equip>
-
-
-            <ToolModifier>
-                ACS1_SupremeCultivationModifier
-            </ToolModifier>
-
-
-        </Equip>
-
-
-    </Item>
-
-
-
-    <Element>
-
-        <Kind>Mu</Kind>
-
-        <Value>4</Value>
-
-        <Radius>2</Radius>
-
-    </Element>
-</ThingDef>
+    </List>
+</ThingDefs>

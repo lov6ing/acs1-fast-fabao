@@ -1,31 +1,40 @@
 <ThingDefs>
     <List>
 
-        <ThingDef
-            Type="Item"
-            Name="Item_ACS1_SupremeScroll"
-            Parent="ToolBase">
+        <ThingDef Type="Item"
+                  Name="Item_ACS1_SupremeScroll"
+                  Parent="ToolBase">
 
             <ThingName>百万金丹逆天卷轴</ThingName>
 
-            <TexPath>res/Sprs/object/object_fuzhou03b</TexPath>
+            <MaxStack>1</MaxStack>
+
+            <TexPath>res\Sprs\object\object_fuzhou03b</TexPath>
 
             <Desc>
-                装备后获得逆天修炼能力。
-
-                百万倍修炼速度。
-                极限炼宝强化。
-                神器概率提升。
-                心境提升。
+                百万金丹逆天卷轴。
+                装备后获得极限炼宝、修炼和心境强化。
             </Desc>
-
-            <MaxStack>1</MaxStack>
 
             <Beauty>5</Beauty>
 
             <Rate>8</Rate>
 
-            <Item Kind="Equipment">
+            <Flammability>
+                <Flammability>0.2</Flammability>
+                <FlameSpawnThingDef></FlameSpawnThingDef>
+                <FlameSpawnChance>0</FlameSpawnChance>
+                <BurningPoint>150</BurningPoint>
+            </Flammability>
+
+            <Item Lable="Tool" Kind="Equipment">
+
+                <PhysicalLables>
+                    <li>Light1</li>
+                    <li>Soft1</li>
+                </PhysicalLables>
+
+                <FuelMultiplier>1</FuelMultiplier>
 
                 <BeMade>
 
@@ -44,17 +53,34 @@
                 </BeMade>
 
                 <Equip>
-                    <ToolModifier>ACS1_SupremeCultivationModifier</ToolModifier>
+                    <ToolModifier>
+                        ACS1_SupremeCultivationModifier
+                    </ToolModifier>
                 </Equip>
 
             </Item>
 
+            <Ling>
+
+                <AddionLing>0</AddionLing>
+                <AddionRadius>1</AddionRadius>
+                <AddionFailing>0</AddionFailing>
+                <AddionFailRadius>0</AddionFailRadius>
+
+                <Attenuation>0.03</Attenuation>
+                <Absorption>0.4</Absorption>
+                <Accommodate>1</Accommodate>
+
+            </Ling>
+
             <Element>
+
                 <Kind>Mu</Kind>
-                <Value>4</Value>
+                <Value>1</Value>
                 <Radius>2</Radius>
                 <Failing>1</Failing>
                 <FailRadius>1</FailRadius>
+
             </Element>
 
         </ThingDef>

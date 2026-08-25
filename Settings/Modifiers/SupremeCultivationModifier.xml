@@ -7,39 +7,38 @@
             <DisplayName>天道逆命</DisplayName>
 
             <Desc>
-                装备后获得极限炼宝与修炼强化。
+                百万金丹专用逆天强化。
             </Desc>
 
             <MaxStack>1</MaxStack>
 
             <Duration>-1</Duration>
 
-            <Display>1</Display>
+            <Display>0</Display>
 
             <Sync>1</Sync>
 
+            <!-- 五维各 +6 -->
+            <BaseFive>6,6,6,6,6</BaseFive>
+
             <Properties>
 
-                <!-- 炼宝速度 -->
+                <!-- 炼宝 -->
                 <li Name="FabaoMake_SpeedAddV" AddV="999"/>
 
-                <!-- 炼宝成功率 -->
                 <li Name="FabaoMake_SuccessRateAddV" AddV="10"/>
 
-                <!-- 法宝品阶 -->
                 <li Name="FabaoMake_LingInheritRateAddV" AddV="100"/>
 
-                <!-- 法宝品质 -->
                 <li Name="FabaoMake_QualityAddV" AddV="10"/>
 
-                <!-- 神器/T12 概率 -->
                 <li Name="FabaoMake_TwelveRateChance" AddV="10"/>
 
-                <!-- 心境基础值 -->
+                <!-- 心境 -->
                 <li Name="MindStateBaseValue" AddV="100"/>
 
                 <!-- 百万级修炼速度 -->
-                <li Name="DeepPracticeSpeedSpecialCoefficient" AddP="999999"/>
+                <li Name="DeepPracticeSpeedSpecialCoefficient" AddV="999999"/>
 
             </Properties>
 

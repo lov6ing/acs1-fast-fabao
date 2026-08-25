@@ -10,7 +10,7 @@
             <Rate>1</Rate>
 
             <Desc>
-                装备后获得极限炼宝与修炼能力。
+                装备后获得天道逆命效果。
             </Desc>
 
             <TexPath>res\Sprs\object\object_fuzhou03b</TexPath>
@@ -40,7 +40,7 @@
                 </BeMade>
 
                 <Equip>
-                    <Modifier>ACS1_SupremeCultivationModifier</Modifier>
+                    <ToolModifier>ACS1_SupremeCultivationModifier</ToolModifier>
                 </Equip>
 
             </Item>

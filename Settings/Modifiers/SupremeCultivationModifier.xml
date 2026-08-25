@@ -1,0 +1,79 @@
+<ModifierDefs>
+    <List>
+
+        <Modifier Name="ACS1_SupremeCultivationModifier" Type="Normal">
+
+            <DisplayName>逆天修炼</DisplayName>
+
+            <Desc>
+                装备后获得：
+
+                炼宝速度大幅提升
+                炼宝成功率极高
+                法宝品质提升
+                神器概率提升
+                心境增强
+                修炼速度百万级提升
+
+            </Desc>
+
+
+            <MaxStack>1</MaxStack>
+
+            <!-- 永久效果 -->
+            <Duration>-1</Duration>
+
+            <Display>1</Display>
+
+            <Sync>1</Sync>
+
+
+            <Properties>
+
+
+                <!-- ================= -->
+                <!-- 法宝炼制 -->
+                <!-- ================= -->
+
+
+                <!-- 炼宝速度约1000倍级 -->
+                <li Name="FabaoMake_SpeedAddV" AddV="999"/>
+
+
+                <!-- 炼宝成功率大幅提升 -->
+                <li Name="FabaoMake_SuccessRateAddV" AddV="10"/>
+
+
+                <!-- 法宝品阶继承强化 -->
+                <li Name="FabaoMake_LingInheritRateAddV" AddV="100"/>
+
+
+                <!-- 法宝品质强化 -->
+                <li Name="FabaoMake_QualityAddV" AddV="10"/>
+
+
+                <!-- 神器/T12概率强化 -->
+                <li Name="FabaoMake_TwelveRateChance" AddV="10"/>
+
+
+
+                <!-- ================= -->
+                <!-- 修炼 -->
+                <!-- ================= -->
+
+
+                <!-- 心境基础值 -->
+                <li Name="MindStateBaseValue" AddV="100"/>
+
+
+                <!-- 修炼速度百万级 -->
+                <li Name="DeepPracticeSpeedSpecialCoefficient" AddP="999999"/>
+
+
+            </Properties>
+
+        </Modifier>
+
+
+    </List>
+</ModifierDefs>

@@ -1,183 +1,94 @@
-<ThingDefs>
-    <List>
+<ThingDef
+    Type="Item"
+    Name="Item_ACS1_SupremeScroll"
+    Parent="ToolBase">
 
 
-        <ThingDef
-            Type="Item"
-            Name="Item_ACS1_SupremeScroll"
-            Parent="ToolBase">
+    <ThingName>
+        百万金丹逆天卷轴
+    </ThingName>
 
 
-            <ThingName>逆天修炼卷轴</ThingName>
+    <TexPath>
+        res/Sprs/object/object_fuzhou03b
+    </TexPath>
 
 
-            <TexPath>
-                res\Sprs\object\object_fuzhou03b
-            </TexPath>
+    <Desc>
+        装备后获得逆天修炼能力。
 
+        百万倍修炼速度。
+        极限炼宝强化。
+        神器概率提升。
+        心境提升。
+    </Desc>
 
-            <Desc>
-                一卷脱离苦修时代的逆天卷轴。
 
-                装备后获得：
+    <MaxStack>1</MaxStack>
 
-                超高速炼宝
-                极高炼宝成功率
-                高品质法宝
-                高神器概率
-                心境增强
-                百万级修炼速度
 
-            </Desc>
+    <Beauty>5</Beauty>
 
 
-            <MaxStack>1</MaxStack>
+    <Rate>8</Rate>
 
 
-            <Beauty>5</Beauty>
 
+    <Item Kind="Equipment">
 
-            <Rate>8</Rate>
 
+        <BeMade>
 
-            <ElementKind>Mu</ElementKind>
 
+            <WorkToMake>1</WorkToMake>
 
-            <Flammability>
 
-                <Flammability>0.2</Flammability>
+            <Quality>0</Quality>
 
-                <FlameSpawnThingDef></FlameSpawnThingDef>
 
-                <FlameSpawnChance>0</FlameSpawnChance>
+            <ArtDesc>
+                百万金丹逆天卷轴
+            </ArtDesc>
 
-                <BurningPoint>150</BurningPoint>
 
-            </Flammability>
+            <StuffCategories>
 
 
+                <Stuff name="Wood"/>
 
-            <Item Kind="Equipment">
 
+            </StuffCategories>
 
-                <FabaoSuffix>
-                    卷,册,书,简
-                </FabaoSuffix>
 
+            <CostStuffCount>1</CostStuffCount>
 
 
-                <PhysicalLables>
+        </BeMade>
 
-                    <li>Light1</li>
 
-                    <li>Soft1</li>
 
-                </PhysicalLables>
+        <Equip>
 
 
+            <ToolModifier>
+                ACS1_SupremeCultivationModifier
+            </ToolModifier>
 
-                <!-- 手工制作 -->
 
-                <BeMade>
+        </Equip>
 
 
-                    <WorkToMake>1</WorkToMake>
+    </Item>
 
 
-                    <Quality>0</Quality>
 
+    <Element>
 
-                    <ArtDesc>
-                        逆天修炼卷轴
-                    </ArtDesc>
+        <Kind>Mu</Kind>
 
+        <Value>4</Value>
 
+        <Radius>2</Radius>
 
-                    <StuffCategories>
-
-
-                        <Stuff name="Cloth"/>
-
-                        <Stuff name="Leather"/>
-
-                        <Stuff name="Wood"/>
-
-                        <Stuff name="WoodBlock"/>
-
-                        <Stuff name="Rock"/>
-
-                        <Stuff name="RockBlock"/>
-
-
-                    </StuffCategories>
-
-
-
-                    <CostStuffCount>1</CostStuffCount>
-
-
-
-                </BeMade>
-
-
-
-
-                <Equip>
-
-
-                    <ToolModifier>
-                        ACS1_SupremeCultivationModifier
-                    </ToolModifier>
-
-
-                </Equip>
-
-
-
-            </Item>
-
-
-
-            <Ling>
-
-                <AddionLing>0</AddionLing>
-
-                <AddionRadius>1</AddionRadius>
-
-                <AddionFailing>0</AddionFailing>
-
-                <AddionFailRadius>0</AddionFailRadius>
-
-                <Attenuation>0.1</Attenuation>
-
-                <Absorption>0.4</Absorption>
-
-                <Accommodate>5</Accommodate>
-
-
-            </Ling>
-
-
-
-            <Element>
-
-                <Kind>Mu</Kind>
-
-                <Value>4</Value>
-
-                <Radius>2</Radius>
-
-                <Failing>1</Failing>
-
-                <FailRadius>1</FailRadius>
-
-
-            </Element>
-
-
-
-        </ThingDef>
-
-
-    </List>
-</ThingDefs>
+    </Element>
+</ThingDef>

@@ -1,82 +1,49 @@
-<Defs>
+<ModifierDefs>
+    <List>
 
+        <Modifier Name="ACS1_SupremeCultivationModifier"
+                  Type="Normal">
 
-<ModifierDef Name="ACS1_SupremeModifier">
+            <DisplayName>天道逆命</DisplayName>
 
+            <Desc>
+                装备后获得极限炼宝与修炼强化。
+            </Desc>
 
-<Label>
-天道逆命
-</Label>
+            <MaxStack>1</MaxStack>
 
+            <Duration>-1</Duration>
 
+            <Display>1</Display>
 
-<Duration>
--1
-</Duration>
+            <Sync>1</Sync>
 
+            <Properties>
 
+                <!-- 炼宝速度 -->
+                <li Name="FabaoMake_SpeedAddV" AddV="999"/>
 
-<Properties>
+                <!-- 炼宝成功率 -->
+                <li Name="FabaoMake_SuccessRateAddV" AddV="10"/>
 
+                <!-- 法宝品阶 -->
+                <li Name="FabaoMake_LingInheritRateAddV" AddV="100"/>
 
-<!-- 炼宝 -->
+                <!-- 法宝品质 -->
+                <li Name="FabaoMake_QualityAddV" AddV="10"/>
 
-<FabaoMake_SpeedAddV>
-999
-</FabaoMake_SpeedAddV>
+                <!-- 神器/T12 概率 -->
+                <li Name="FabaoMake_TwelveRateChance" AddV="10"/>
 
+                <!-- 心境基础值 -->
+                <li Name="MindStateBaseValue" AddV="100"/>
 
-<FabaoMake_SuccessRateAddV>
-1
-</FabaoMake_SuccessRateAddV>
+                <!-- 百万级修炼速度 -->
+                <li Name="DeepPracticeSpeedSpecialCoefficient" AddP="999999"/>
 
+            </Properties>
 
-<FabaoMake_QualityAddV>
-100
-</FabaoMake_QualityAddV>
+        </Modifier>
 
-
-
-<!-- 修炼 -->
-
-<DeepPracticeSpeedSpecialCoefficient>
-1000000
-</DeepPracticeSpeedSpecialCoefficient>
-
-
-
-<!-- 心境 -->
-
-<MoodMaxAdd>
-100
-</MoodMaxAdd>
-
-
-
-<!-- 五维 -->
-
-<PhysicalAdd>
-6
-</PhysicalAdd>
-
-<IntelligenceAdd>
-6
-</IntelligenceAdd>
-
-<ComprehensionAdd>
-6
-</ComprehensionAdd>
-
-<PotentialAdd>
-100
-</PotentialAdd>
-
-
-
-</Properties>
-
-
-</ModifierDef>
-
-
-</Defs>
+    </List>
+</ModifierDefs>

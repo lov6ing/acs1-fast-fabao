@@ -1,89 +1,68 @@
 <ThingDefs>
-    <List>
+  <List>
 
-        <ThingDef Type="Item"
-                  Name="Item_ACS1_SupremeScroll"
-                  Parent="ToolBase">
+    <ThingDef
+      Type="Item"
+      Name="Item_ACS1_SupremeScroll"
+      Parent="ToolBase">
 
-            <ThingName>百万金丹逆天卷轴</ThingName>
+      <ThingName>百万金丹逆天卷轴</ThingName>
 
-            <MaxStack>1</MaxStack>
+      <Rate>1</Rate>
 
-            <TexPath>res\Sprs\object\object_fuzhou03b</TexPath>
+      <Desc>装备后获得极限修炼能力：百万级修炼速度、超高速炼宝、炼宝成功率与品质强化，以及神器/T12概率强化。</Desc>
 
-            <Desc>
-                百万金丹逆天卷轴。
-                装备后获得极限炼宝、修炼和心境强化。
-            </Desc>
+      <TexPath>res/Sprs/object/object_fuzhou03b</TexPath>
 
-            <Beauty>5</Beauty>
+      <Color>ffffff</Color>
 
-            <Rate>8</Rate>
+      <OtherWorld>1</OtherWorld>
 
-            <Flammability>
-                <Flammability>0.2</Flammability>
-                <FlameSpawnThingDef></FlameSpawnThingDef>
-                <FlameSpawnChance>0</FlameSpawnChance>
-                <BurningPoint>150</BurningPoint>
-            </Flammability>
+      <Item Lable="Tool" Kind="Equipment">
 
-            <Item Lable="Tool" Kind="Equipment">
+        <PhysicalLables>
+          <li>Light1</li>
+          <li>Soft1</li>
+        </PhysicalLables>
 
-                <PhysicalLables>
-                    <li>Light1</li>
-                    <li>Soft1</li>
-                </PhysicalLables>
+        <BeMade>
 
-                <FuelMultiplier>1</FuelMultiplier>
+          <WorkToMake>1</WorkToMake>
 
-                <BeMade>
+          <Quality>0</Quality>
 
-                    <WorkToMake>1</WorkToMake>
+          <ArtDesc>百万金丹逆天卷轴</ArtDesc>
 
-                    <Quality>0</Quality>
+          <CostStuffCount>1</CostStuffCount>
 
-                    <ArtDesc>百万金丹逆天卷轴</ArtDesc>
+          <StuffCategories>
+            <Stuff name="WoodBlock" />
+          </StuffCategories>
 
-                    <StuffCategories>
-                        <Stuff name="Wood"/>
-                    </StuffCategories>
+        </BeMade>
 
-                    <CostStuffCount>1</CostStuffCount>
+        <Equip>
+          <Modifier>ACS1_SupremeCultivationModifier</Modifier>
+        </Equip>
 
-                </BeMade>
+      </Item>
 
-                <Equip>
-                    <ToolModifier>
-                        ACS1_SupremeCultivationModifier
-                    </ToolModifier>
-                </Equip>
+      <CostStuffCount>1</CostStuffCount>
 
-            </Item>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>WeaponMaker</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
 
-            <Ling>
+      <Light>
+        <Color>ffffff</Color>
+      </Light>
 
-                <AddionLing>0</AddionLing>
-                <AddionRadius>1</AddionRadius>
-                <AddionFailing>0</AddionFailing>
-                <AddionFailRadius>0</AddionFailRadius>
+    </ThingDef>
 
-                <Attenuation>0.03</Attenuation>
-                <Absorption>0.4</Absorption>
-                <Accommodate>1</Accommodate>
-
-            </Ling>
-
-            <Element>
-
-                <Kind>Mu</Kind>
-                <Value>1</Value>
-                <Radius>2</Radius>
-                <Failing>1</Failing>
-                <FailRadius>1</FailRadius>
-
-            </Element>
-
-        </ThingDef>
-
-    </List>
+  </List>
 </ThingDefs>

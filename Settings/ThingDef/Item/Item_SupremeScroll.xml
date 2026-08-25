@@ -1,60 +1,53 @@
-<Defs>
+<ThingDefs>
+    <List>
 
+        <ThingDef Type="Item"
+                  Name="Item_ACS1_SupremeScroll"
+                  Parent="ToolBase">
 
-<ThingDef Type="Item" Name="Item_ACS1_SupremeScroll" Parent="EquipmentBase">
+            <ThingName>百万金丹逆天卷轴</ThingName>
 
+            <Rate>1</Rate>
 
-<Label>
-百万金丹逆天卷轴
-</Label>
+            <Desc>
+                装备后获得极限炼宝与修炼能力。
+            </Desc>
 
+            <TexPath>res\Sprs\object\object_fuzhou03b</TexPath>
 
-<Description>
+            <Color>ffffff</Color>
 
-装备后获得天道祝福。
+            <OtherWorld>1</OtherWorld>
 
-炼宝速度1000倍。
+            <Item Lable="Tool" Kind="Equipment">
 
-炼宝成功率100%。
+                <BeMade>
 
-神器概率提升。
+                    <WorkToMake>1</WorkToMake>
 
-修炼速度1000000倍。
+                    <Quality>0</Quality>
 
-心境永久满。
+                    <CostStuffCount>1</CostStuffCount>
 
-潜力+100。
+                    <StuffCategories>
+                        <Stuff name="WoodBlock"/>
+                    </StuffCategories>
 
-五维属性+6。
+                    <ArtDesc>
+                        百万金丹逆天卷轴
+                    </ArtDesc>
 
-</Description>
+                </BeMade>
 
+                <Equip>
+                    <Modifier>ACS1_SupremeCultivationModifier</Modifier>
+                </Equip>
 
+            </Item>
 
-<Equip>
+            <CostStuffCount>1</CostStuffCount>
 
-<Modifier>
-ACS1_SupremeModifier
-</Modifier>
+        </ThingDef>
 
-
-</Equip>
-
-
-
-<GraphicData>
-
-<TexPath>
-res/Sprs/object/object_fuzhou03b
-</TexPath>
-
-
-</GraphicData>
-
-
-
-</ThingDef>
-
-
-
-</Defs>
+    </List>
+</ThingDefs>

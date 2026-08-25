@@ -1,0 +1,133 @@
+<ThingDefs>
+    <List>
+
+        <ThingDef Type="Building"
+                  Name="WorkPlace"
+                  Parent="ProductionBase">
+
+            <ThingName>手工点</ThingName>
+
+            <Desc>
+                不需要什么制作材料，只是在地上画出一个区域，可以进行一些简单工具的制作。
+            </Desc>
+
+            <TileID>271</TileID>
+
+            <BlockMissile>0</BlockMissile>
+
+            <SelectAble>1</SelectAble>
+
+            <CastShadow>0</CastShadow>
+
+            <Beauty>0</Beauty>
+
+            <BlockLight>0</BlockLight>
+
+            <MaxHitPoints>1</MaxHitPoints>
+
+            <ColliderKind>Across</ColliderKind>
+
+            <VisionRadius>0</VisionRadius>
+
+            <Flammability>
+                <Flammability>0</Flammability>
+                <FlameSpawnThingDef></FlameSpawnThingDef>
+                <FlameSpawnChance>0</FlameSpawnChance>
+                <BurningPoint>500</BurningPoint>
+            </Flammability>
+
+            <Collider>
+
+                <Data>
+                    [6],
+                </Data>
+
+                <WorkOffset>
+                    <li Index="0"
+                        X="0"
+                        Y="0"
+                        Ang="1"/>
+                </WorkOffset>
+
+            </Collider>
+
+            <Flammability>
+                <Flammability>0</Flammability>
+                <FlameSpawnThingDef></FlameSpawnThingDef>
+                <FlameSpawnChance>0</FlameSpawnChance>
+                <BurningPoint>400</BurningPoint>
+            </Flammability>
+
+            <IllustratedHandLabel>Dele</IllustratedHandLabel>
+
+            <NotDoTongLing>1</NotDoTongLing>
+
+            <Building>
+
+                <NotRandom>1</NotRandom>
+
+                <ShowFree>0</ShowFree>
+
+                <NoFengshui>1</NoFengshui>
+
+                <NoFight>1</NoFight>
+
+                <TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+
+                <CanMakeRoom>0</CanMakeRoom>
+
+                <WorkAnimation>produce</WorkAnimation>
+
+                <BeMade>
+
+                    <WorkToMake>1</WorkToMake>
+
+                    <Quality>0</Quality>
+
+                </BeMade>
+
+                <ProducePriority>1</ProducePriority>
+
+                <ProduceKind>Handwork</ProduceKind>
+
+                <Produces>
+
+                    <Produce>
+                        <ThingDef>Item_WeaponWoodBow</ThingDef>
+                        <Display>木弓</Display>
+                        <Count>1</Count>
+                    </Produce>
+
+                    <Produce>
+                        <ThingDef>Item_SysAxe</ThingDef>
+                        <Display>伐木斧</Display>
+                        <Count>1</Count>
+                    </Produce>
+
+                    <Produce>
+                        <ThingDef>Item_SysPickaxe</ThingDef>
+                        <Display>矿镐</Display>
+                        <Count>1</Count>
+                    </Produce>
+
+                    <Produce>
+                        <ThingDef>Item_SysSickle</ThingDef>
+                        <Display>农具</Display>
+                        <Count>1</Count>
+                    </Produce>
+
+                    <!-- 我们新增的物品 -->
+                    <Produce>
+                        <ThingDef>Item_ACS1_SupremeScroll</ThingDef>
+                        <Display>百万金丹逆天卷轴</Display>
+                        <Count>1</Count>
+                    </Produce>
+
+                </Produces>
+
+            </Building>
+
+        </ThingDef>
+
+    </List>
+</ThingDefs>

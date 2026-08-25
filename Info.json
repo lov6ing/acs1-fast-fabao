@@ -1,6 +1,8 @@
 {
-    "Name": "ACS1 Fast Fabao Supreme",
-    "Version": "1.0",
-    "Author": "custom",
-    "Description": "逆天炼宝卷轴"
+  "Name": "ACS1_SupremeCultivation",
+  "DisplayName": "百万金丹逆天卷轴",
+  "Desc": "手工点生产百万金丹逆天卷轴，装备后获得极限炼宝与修炼强化。",
+  "Author": "lov6ing",
+  "UIPackage": null,
+  "Dependencies": null
 }

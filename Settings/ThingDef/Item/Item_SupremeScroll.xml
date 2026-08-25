@@ -1,68 +1,60 @@
-<ThingDefs>
-  <List>
+<Defs>
 
-    <ThingDef
-      Type="Item"
-      Name="Item_ACS1_SupremeScroll"
-      Parent="ToolBase">
 
-      <ThingName>百万金丹逆天卷轴</ThingName>
+<ThingDef Type="Item" Name="Item_ACS1_SupremeScroll" Parent="EquipmentBase">
 
-      <Rate>1</Rate>
 
-      <Desc>装备后获得极限修炼能力：百万级修炼速度、超高速炼宝、炼宝成功率与品质强化，以及神器/T12概率强化。</Desc>
+<Label>
+百万金丹逆天卷轴
+</Label>
 
-      <TexPath>res/Sprs/object/object_fuzhou03b</TexPath>
 
-      <Color>ffffff</Color>
+<Description>
 
-      <OtherWorld>1</OtherWorld>
+装备后获得天道祝福。
 
-      <Item Lable="Tool" Kind="Equipment">
+炼宝速度1000倍。
 
-        <PhysicalLables>
-          <li>Light1</li>
-          <li>Soft1</li>
-        </PhysicalLables>
+炼宝成功率100%。
 
-        <BeMade>
+神器概率提升。
 
-          <WorkToMake>1</WorkToMake>
+修炼速度1000000倍。
 
-          <Quality>0</Quality>
+心境永久满。
 
-          <ArtDesc>百万金丹逆天卷轴</ArtDesc>
+潜力+100。
 
-          <CostStuffCount>1</CostStuffCount>
+五维属性+6。
 
-          <StuffCategories>
-            <Stuff name="WoodBlock" />
-          </StuffCategories>
+</Description>
 
-        </BeMade>
 
-        <Equip>
-          <Modifier>ACS1_SupremeCultivationModifier</Modifier>
-        </Equip>
 
-      </Item>
+<Equip>
 
-      <CostStuffCount>1</CostStuffCount>
+<Modifier>
+ACS1_SupremeModifier
+</Modifier>
 
-      <ProduceMode>
-        <ProduceBuildings>
-          <li>
-            <Building>WeaponMaker</Building>
-            <Count>1</Count>
-          </li>
-        </ProduceBuildings>
-      </ProduceMode>
 
-      <Light>
-        <Color>ffffff</Color>
-      </Light>
+</Equip>
 
-    </ThingDef>
 
-  </List>
-</ThingDefs>
+
+<GraphicData>
+
+<TexPath>
+res/Sprs/object/object_fuzhou03b
+</TexPath>
+
+
+</GraphicData>
+
+
+
+</ThingDef>
+
+
+
+</Defs>

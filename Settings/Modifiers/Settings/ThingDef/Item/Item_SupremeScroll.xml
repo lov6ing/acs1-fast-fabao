@@ -1,0 +1,183 @@
+<ThingDefs>
+    <List>
+
+
+        <ThingDef
+            Type="Item"
+            Name="Item_ACS1_SupremeScroll"
+            Parent="ToolBase">
+
+
+            <ThingName>逆天修炼卷轴</ThingName>
+
+
+            <TexPath>
+                res\Sprs\object\object_fuzhou03b
+            </TexPath>
+
+
+            <Desc>
+                一卷脱离苦修时代的逆天卷轴。
+
+                装备后获得：
+
+                超高速炼宝
+                极高炼宝成功率
+                高品质法宝
+                高神器概率
+                心境增强
+                百万级修炼速度
+
+            </Desc>
+
+
+            <MaxStack>1</MaxStack>
+
+
+            <Beauty>5</Beauty>
+
+
+            <Rate>8</Rate>
+
+
+            <ElementKind>Mu</ElementKind>
+
+
+            <Flammability>
+
+                <Flammability>0.2</Flammability>
+
+                <FlameSpawnThingDef></FlameSpawnThingDef>
+
+                <FlameSpawnChance>0</FlameSpawnChance>
+
+                <BurningPoint>150</BurningPoint>
+
+            </Flammability>
+
+
+
+            <Item Kind="Equipment">
+
+
+                <FabaoSuffix>
+                    卷,册,书,简
+                </FabaoSuffix>
+
+
+
+                <PhysicalLables>
+
+                    <li>Light1</li>
+
+                    <li>Soft1</li>
+
+                </PhysicalLables>
+
+
+
+                <!-- 手工制作 -->
+
+                <BeMade>
+
+
+                    <WorkToMake>1</WorkToMake>
+
+
+                    <Quality>0</Quality>
+
+
+                    <ArtDesc>
+                        逆天修炼卷轴
+                    </ArtDesc>
+
+
+
+                    <StuffCategories>
+
+
+                        <Stuff name="Cloth"/>
+
+                        <Stuff name="Leather"/>
+
+                        <Stuff name="Wood"/>
+
+                        <Stuff name="WoodBlock"/>
+
+                        <Stuff name="Rock"/>
+
+                        <Stuff name="RockBlock"/>
+
+
+                    </StuffCategories>
+
+
+
+                    <CostStuffCount>1</CostStuffCount>
+
+
+
+                </BeMade>
+
+
+
+
+                <Equip>
+
+
+                    <ToolModifier>
+                        ACS1_SupremeCultivationModifier
+                    </ToolModifier>
+
+
+                </Equip>
+
+
+
+            </Item>
+
+
+
+            <Ling>
+
+                <AddionLing>0</AddionLing>
+
+                <AddionRadius>1</AddionRadius>
+
+                <AddionFailing>0</AddionFailing>
+
+                <AddionFailRadius>0</AddionFailRadius>
+
+                <Attenuation>0.1</Attenuation>
+
+                <Absorption>0.4</Absorption>
+
+                <Accommodate>5</Accommodate>
+
+
+            </Ling>
+
+
+
+            <Element>
+
+                <Kind>Mu</Kind>
+
+                <Value>4</Value>
+
+                <Radius>2</Radius>
+
+                <Failing>1</Failing>
+
+                <FailRadius>1</FailRadius>
+
+
+            </Element>
+
+
+
+        </ThingDef>
+
+
+    </List>
+</ThingDefs>

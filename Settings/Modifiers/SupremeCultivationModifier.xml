@@ -23,22 +23,64 @@
 
             <Properties>
 
-                <!-- 炼宝 -->
+                <!-- ==================== 炼宝 ==================== -->
+
+                <!-- 炼宝速度 -->
                 <li Name="FabaoMake_SpeedAddV" AddV="999"/>
 
+                <!-- 炼宝成功率 -->
                 <li Name="FabaoMake_SuccessRateAddV" AddV="10"/>
 
+                <!-- 炼宝品阶 -->
                 <li Name="FabaoMake_LingInheritRateAddV" AddV="100"/>
 
+                <!-- 炼宝品质 -->
                 <li Name="FabaoMake_QualityAddV" AddV="10"/>
 
+                <!-- 神器/T12 概率 -->
                 <li Name="FabaoMake_TwelveRateChance" AddV="10"/>
 
-                <!-- 心境 -->
+
+                <!-- ==================== 人物基础 ==================== -->
+
+                <!-- 人物灵力上限 +1000000 -->
+                <li Name="NpcLingMaxValue" AddV="1000000"/>
+
+                <!-- 心境基础值 +100 -->
                 <li Name="MindStateBaseValue" AddV="100"/>
 
-                <!-- 百万级修炼速度 -->
+                <!-- 修炼速度极大提升 -->
                 <li Name="DeepPracticeSpeedSpecialCoefficient" AddV="999999"/>
+
+
+                <!-- ==================== 移动/工作 ==================== -->
+
+                <!-- 移动速度 +100% -->
+                <li Name="MoveSpeed" AddP="1.0"/>
+
+                <!-- 总体工作效率 +160% -->
+                <li Name="GlobalEfficiency" AddP="1.6"/>
+
+                <!-- 手工工作速度 +160% -->
+                <li Name="HandworkSpeed" AddP="1.6"/>
+
+
+                <!-- ==================== 生存能力 ==================== -->
+
+                <!-- 最高耐受温度 +100 -->
+                <li Name="ToleranceTMax" AddV="100"/>
+
+                <!-- 最低耐受温度 -100 -->
+                <li Name="ToleranceTMin" AddV="-100"/>
+
+
+                <!-- ==================== 精力/精元 ==================== -->
+
+                <!-- 精力消耗降低约99% -->
+                <li Name="FatigueConsumeConstant" AddV="-0.99"/>
+
+                <!-- 精元转化效率 +99% -->
+                <li Name="NutritionToJingYuanK" AddV="0.99"/>
 
             </Properties>
 

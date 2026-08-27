@@ -9,8 +9,8 @@
 
             <ThingName>大灵气丹</ThingName>
 
-            <!-- 先用原生水果图标做路径测试 -->
-            <TexPath>res\Sprs\object\object_fruit</TexPath>
+            <!-- 原版聚灵丹图标 -->
+            <TexPath>res\Sprs\object\object_XIAOdanyao02</TexPath>
 
             <Desc>
                 服用后立即恢复1000000点灵气。
@@ -38,9 +38,9 @@
                 <BeMade>
                     <WorkToMake>10</WorkToMake>
 
-                    <!-- 普通水果 -->
+                    <!-- 灵仙草 -->
                     <CostItems>
-                        <Item name="Item_Fruit" count="1"/>
+                        <Item name="Item_MagicHerb" count="1"/>
                     </CostItems>
                 </BeMade>
 

@@ -1,0 +1,59 @@
+<ThingDefs>
+    <List>
+
+        <ThingDef Type="Item"
+                  Name="Item_ACS1_LingRecoveryDan"
+                  Parent="DanBase">
+
+            <MaxStack>1000</MaxStack>
+
+            <ThingName>大灵气丹</ThingName>
+
+            <TexPath>Spr\Object\danyao_ds.png</TexPath>
+
+            <Desc>
+                服用后立即恢复10000000点灵气。
+            </Desc>
+
+            <Rate>12</Rate>
+
+            <Beauty>15</Beauty>
+
+            <ElementKind>None</ElementKind>
+
+            <Item Lable="Dan">
+
+                <PhysicalLables>
+                    <li>Smooth2</li>
+                    <li>Hard1</li>
+                    <li>GreatThing_Ling</li>
+                </PhysicalLables>
+
+                <Elixir>
+
+                    <!-- 当前灵气 +10000000 -->
+                    <Ling>10000000</Ling>
+
+                </Elixir>
+
+                <BeMade>
+
+                    <WorkToMake>10</WorkToMake>
+
+                    <CostItems>
+                        <Item name="Item_MagicHerb" count="1"/>
+                    </CostItems>
+
+                </BeMade>
+
+            </Item>
+
+            <Element>
+                <Kind>None</Kind>
+                <Value>0</Value>
+            </Element>
+
+        </ThingDef>
+
+    </List>
+</ThingDefs>

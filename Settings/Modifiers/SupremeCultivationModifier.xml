@@ -1,6 +1,8 @@
 <ModifierDefs>
     <List>
 
+        <!-- ==================== 卷轴强化 ==================== -->
+
         <Modifier Name="ACS1_SupremeCultivationModifier"
                   Type="Normal">
 
@@ -25,18 +27,23 @@
 
                 <!-- ==================== 炼宝 ==================== -->
 
+                <!-- 炼宝速度 -->
                 <li Name="FabaoMake_SpeedAddV" AddV="999"/>
 
+                <!-- 炼宝成功率 -->
                 <li Name="FabaoMake_SuccessRateAddV" AddV="10"/>
 
+                <!-- 炼宝品阶 -->
                 <li Name="FabaoMake_LingInheritRateAddV" AddV="100"/>
 
+                <!-- 炼宝品质 -->
                 <li Name="FabaoMake_QualityAddV" AddV="10"/>
 
+                <!-- 神器/T12 概率 -->
                 <li Name="FabaoMake_TwelveRateChance" AddV="10"/>
 
 
-                <!-- ==================== 人物修炼 ==================== -->
+                <!-- ==================== 修炼/领悟 ==================== -->
 
                 <!-- 心境 -->
                 <li Name="MindStateBaseValue" AddV="100"/>
@@ -44,7 +51,7 @@
                 <!-- 修炼速度 -->
                 <li Name="DeepPracticeSpeedSpecialCoefficient" AddV="999999"/>
 
-                <!-- 参悟/领悟相关倍率，+1000%候选 -->
+                <!-- 领悟/参悟相关倍率 -->
                 <li Name="InspirationCoefficient" AddP="10"/>
 
 
@@ -60,7 +67,7 @@
                 <li Name="HandworkSpeed" AddP="16.0"/>
 
 
-                <!-- ==================== 生存 ==================== -->
+                <!-- ==================== 温度耐受 ==================== -->
 
                 <!-- 最高耐受温度 +100 -->
                 <li Name="ToleranceTMax" AddV="100"/>
@@ -81,18 +88,19 @@
 
         </Modifier>
 
-        <!-- ==================== 服用后永久强化的丹药 ==================== -->
 
-        <Modifier Name="ACS1_MegaLingDanModifier"
+        <!-- ==================== 筑灵丹：永久增加灵力上限 ==================== -->
+
+        <Modifier Name="ACS1_LingMaxPermanentModifier"
                   Type="Normal">
 
-            <DisplayName>逆天灵丹</DisplayName>
+            <DisplayName>筑灵</DisplayName>
 
             <Desc>
-                服用后永久增加灵力上限，并强化领悟与精元转化。
+                服用筑灵丹后，永久增加1000000点灵力上限。
             </Desc>
 
-            <MaxStack>1</MaxStack>
+            <MaxStack>0</MaxStack>
 
             <Duration>-1</Duration>
 
@@ -102,14 +110,8 @@
 
             <Properties>
 
-                <!-- 灵力上限永久 +1000000 -->
+                <!-- 只有筑灵丹拥有这项 -->
                 <li Name="NpcLingMaxValue" BAddV="1000000"/>
-
-                <!-- 领悟/参悟相关倍率 -->
-                <li Name="InspirationCoefficient" AddP="10"/>
-
-                <!-- 精元转化效率 -->
-                <li Name="NutritionToJingYuanK" AddV="0.99"/>
 
             </Properties>
 

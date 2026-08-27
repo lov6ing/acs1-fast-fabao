@@ -123,17 +123,24 @@
                         <Count>1</Count>
                     </Produce>
 
-                    <!-- 立即恢复1000万灵气 -->
+                    <!-- 当前灵气 +100万 -->
                     <Produce>
                         <ThingDef>Item_ACS1_LingRecoveryDan</ThingDef>
                         <Display>大灵气丹</Display>
                         <Count>1</Count>
                     </Produce>
 
-                    <!-- 永久增加100万灵力上限 -->
+                    <!-- 永久灵力上限 +100万 -->
                     <Produce>
                         <ThingDef>Item_ACS1_LingMaxDan</ThingDef>
                         <Display>筑灵丹</Display>
+                        <Count>1</Count>
+                    </Produce>
+
+                    <!-- 参悟 +1000万 -->
+                    <Produce>
+                        <ThingDef>Item_ACS1_InspirationDan</ThingDef>
+                        <Display>参悟丹</Display>
                         <Count>1</Count>
                     </Produce>
 

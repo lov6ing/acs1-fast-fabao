@@ -18,54 +18,49 @@
 
             <Sync>1</Sync>
 
-            <!-- 五维各 +6 -->
-            <BaseFive>6,6,6,6,6</BaseFive>
+            <!-- 五维各 +10 -->
+            <BaseFive>10,10,10,10,10</BaseFive>
 
             <Properties>
 
                 <!-- ==================== 炼宝 ==================== -->
 
-                <!-- 炼宝速度 -->
                 <li Name="FabaoMake_SpeedAddV" AddV="999"/>
 
-                <!-- 炼宝成功率 -->
                 <li Name="FabaoMake_SuccessRateAddV" AddV="10"/>
 
-                <!-- 炼宝品阶 -->
                 <li Name="FabaoMake_LingInheritRateAddV" AddV="100"/>
 
-                <!-- 炼宝品质 -->
                 <li Name="FabaoMake_QualityAddV" AddV="10"/>
 
-                <!-- 神器/T12 概率 -->
                 <li Name="FabaoMake_TwelveRateChance" AddV="10"/>
 
 
-                <!-- ==================== 人物基础 ==================== -->
+                <!-- ==================== 人物修炼 ==================== -->
 
-                <!-- 人物灵力上限 +1000000 -->
-                <li Name="NpcLingMaxValue" AddV="1000000"/>
-
-                <!-- 心境基础值 +100 -->
+                <!-- 心境 -->
                 <li Name="MindStateBaseValue" AddV="100"/>
 
-                <!-- 修炼速度极大提升 -->
+                <!-- 修炼速度 -->
                 <li Name="DeepPracticeSpeedSpecialCoefficient" AddV="999999"/>
+
+                <!-- 参悟/领悟相关倍率，+1000%候选 -->
+                <li Name="InspirationCoefficient" AddP="10"/>
 
 
                 <!-- ==================== 移动/工作 ==================== -->
 
-                <!-- 移动速度 +100% -->
-                <li Name="MoveSpeed" AddP="1.0"/>
+                <!-- 移动速度 +1000% -->
+                <li Name="MoveSpeed" AddP="10.0"/>
 
-                <!-- 总体工作效率 +160% -->
-                <li Name="GlobalEfficiency" AddP="1.6"/>
+                <!-- 总体工作效率 +1600% -->
+                <li Name="GlobalEfficiency" AddP="16.0"/>
 
-                <!-- 手工工作速度 +160% -->
-                <li Name="HandworkSpeed" AddP="1.6"/>
+                <!-- 手工工作速度 +1600% -->
+                <li Name="HandworkSpeed" AddP="16.0"/>
 
 
-                <!-- ==================== 生存能力 ==================== -->
+                <!-- ==================== 生存 ==================== -->
 
                 <!-- 最高耐受温度 +100 -->
                 <li Name="ToleranceTMax" AddV="100"/>
@@ -76,10 +71,44 @@
 
                 <!-- ==================== 精力/精元 ==================== -->
 
-                <!-- 精力消耗降低约99% -->
-                <li Name="FatigueConsumeConstant" AddV="-0.99"/>
+                <!-- 精力消耗进一步降低 -->
+                <li Name="FatigueConsumeConstant" AddV="-0.9999"/>
 
-                <!-- 精元转化效率 +99% -->
+                <!-- 精元转化效率 -->
+                <li Name="NutritionToJingYuanK" AddV="0.99"/>
+
+            </Properties>
+
+        </Modifier>
+
+        <!-- ==================== 服用后永久强化的丹药 ==================== -->
+
+        <Modifier Name="ACS1_MegaLingDanModifier"
+                  Type="Normal">
+
+            <DisplayName>逆天灵丹</DisplayName>
+
+            <Desc>
+                服用后永久增加灵力上限，并强化领悟与精元转化。
+            </Desc>
+
+            <MaxStack>1</MaxStack>
+
+            <Duration>-1</Duration>
+
+            <Display>0</Display>
+
+            <Sync>1</Sync>
+
+            <Properties>
+
+                <!-- 灵力上限永久 +1000000 -->
+                <li Name="NpcLingMaxValue" BAddV="1000000"/>
+
+                <!-- 领悟/参悟相关倍率 -->
+                <li Name="InspirationCoefficient" AddP="10"/>
+
+                <!-- 精元转化效率 -->
                 <li Name="NutritionToJingYuanK" AddV="0.99"/>
 
             </Properties>

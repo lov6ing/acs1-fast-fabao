@@ -1,0 +1,67 @@
+<ThingDefs>
+    <List>
+
+        <ThingDef Type="Item"
+                  Name="Item_ACS1_InspirationDan"
+                  Parent="DanBase">
+
+            <MaxStack>1000</MaxStack>
+
+            <ThingName>参悟丹</ThingName>
+
+            <!-- 原生丹药图标 -->
+            <TexPath>res\Sprs\object\object_DAdanyao01</TexPath>
+
+            <Desc>
+                服用后立即获得10000000点参悟。
+            </Desc>
+
+            <Rate>9</Rate>
+
+            <Beauty>5</Beauty>
+
+            <ElementKind>None</ElementKind>
+
+
+            <Item Lable="Dan">
+
+                <PhysicalLables>
+                    <li>Smooth1</li>
+                    <li>Hard1</li>
+                    <li>Light1</li>
+                </PhysicalLables>
+
+
+                <Elixir>
+
+                    <!-- 增加1000万参悟 -->
+                    <TreeExp>10000000</TreeExp>
+
+                </Elixir>
+
+
+                <BeMade>
+
+                    <WorkToMake>10</WorkToMake>
+
+                    <!-- 灵仙草 -->
+                    <CostItems>
+                        <Item name="Item_MagicHerb" count="1"/>
+                    </CostItems>
+
+                </BeMade>
+
+
+            </Item>
+
+
+            <Element>
+                <Kind>None</Kind>
+                <Value>0</Value>
+            </Element>
+
+
+        </ThingDef>
+
+    </List>
+</ThingDefs>

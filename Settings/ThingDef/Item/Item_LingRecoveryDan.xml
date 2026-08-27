@@ -9,6 +9,7 @@
 
             <ThingName>大灵气丹</ThingName>
 
+            <!-- 丹药图标 -->
             <TexPath>Spr\Object\danyao_ds.png</TexPath>
 
             <Desc>
@@ -30,19 +31,19 @@
                 </PhysicalLables>
 
                 <Elixir>
-
-                    <!-- 当前灵气 +10000000 -->
                     <Ling>10000000</Ling>
-
                 </Elixir>
 
                 <BeMade>
 
                     <WorkToMake>10</WorkToMake>
 
-                    <CostItems>
-                        <Item name="Item_MagicHerb" count="1"/>
-                    </CostItems>
+                    <!-- 使用木料 -->
+                    <StuffCategories>
+                        <Stuff name="WoodBlock"/>
+                    </StuffCategories>
+
+                    <CostStuffCount>1</CostStuffCount>
 
                 </BeMade>
 

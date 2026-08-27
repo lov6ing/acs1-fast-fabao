@@ -90,51 +90,54 @@
 
                 <ProduceKind>Handwork</ProduceKind>
 
-          <Produces>
+                <Produces>
 
-    <Produce>
-        <ThingDef>Item_WeaponWoodBow</ThingDef>
-        <Display>木弓</Display>
-        <Count>1</Count>
-    </Produce>
+                    <Produce>
+                        <ThingDef>Item_WeaponWoodBow</ThingDef>
+                        <Display>木弓</Display>
+                        <Count>1</Count>
+                    </Produce>
 
-    <Produce>
-        <ThingDef>Item_SysAxe</ThingDef>
-        <Display>伐木斧</Display>
-        <Count>1</Count>
-    </Produce>
+                    <Produce>
+                        <ThingDef>Item_SysAxe</ThingDef>
+                        <Display>伐木斧</Display>
+                        <Count>1</Count>
+                    </Produce>
 
-    <Produce>
-        <ThingDef>Item_SysPickaxe</ThingDef>
-        <Display>矿镐</Display>
-        <Count>1</Count>
-    </Produce>
+                    <Produce>
+                        <ThingDef>Item_SysPickaxe</ThingDef>
+                        <Display>矿镐</Display>
+                        <Count>1</Count>
+                    </Produce>
 
-    <Produce>
-        <ThingDef>Item_SysSickle</ThingDef>
-        <Display>农具</Display>
-        <Count>1</Count>
-    </Produce>
+                    <Produce>
+                        <ThingDef>Item_SysSickle</ThingDef>
+                        <Display>农具</Display>
+                        <Count>1</Count>
+                    </Produce>
 
-    <Produce>
-        <ThingDef>Item_ACS1_SupremeScroll</ThingDef>
-        <Display>百万金丹逆天卷轴</Display>
-        <Count>1</Count>
-    </Produce>
+                    <!-- 百万金丹逆天卷轴 -->
+                    <Produce>
+                        <ThingDef>Item_ACS1_SupremeScroll</ThingDef>
+                        <Display>百万金丹逆天卷轴</Display>
+                        <Count>1</Count>
+                    </Produce>
 
-    <Produce>
-        <ThingDef>Item_ACS1_LingRecoveryDan</ThingDef>
-        <Display>大灵气丹</Display>
-        <Count>1</Count>
-    </Produce>
+                    <!-- 立即恢复1000万灵气 -->
+                    <Produce>
+                        <ThingDef>Item_ACS1_LingRecoveryDan</ThingDef>
+                        <Display>大灵气丹</Display>
+                        <Count>1</Count>
+                    </Produce>
 
-    <Produce>
-        <ThingDef>Item_ACS1_LingMaxDan</ThingDef>
-        <Display>筑灵丹</Display>
-        <Count>1</Count>
-    </Produce>
+                    <!-- 永久增加100万灵力上限 -->
+                    <Produce>
+                        <ThingDef>Item_ACS1_LingMaxDan</ThingDef>
+                        <Display>筑灵丹</Display>
+                        <Count>1</Count>
+                    </Produce>
 
-</Produces>
+                </Produces>
 
             </Building>
 

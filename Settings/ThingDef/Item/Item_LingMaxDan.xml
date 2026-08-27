@@ -9,8 +9,8 @@
 
             <ThingName>筑灵丹</ThingName>
 
-            <!-- 丹药图标 -->
-            <TexPath>Spr\Object\danyao_ds.png</TexPath>
+            <!-- 先用原生水果图标做路径测试 -->
+            <TexPath>res\Sprs\object\object_fruit</TexPath>
 
             <Desc>
                 服用后永久增加1000000点灵力上限。
@@ -31,20 +31,17 @@
                 </PhysicalLables>
 
                 <Elixir>
+                    <!-- 永久增加1000000点灵力上限 -->
                     <Modifier>ACS1_LingMaxPermanentModifier</Modifier>
                 </Elixir>
 
                 <BeMade>
-
                     <WorkToMake>10</WorkToMake>
 
-                    <!-- 使用木料 -->
-                    <StuffCategories>
-                        <Stuff name="WoodBlock"/>
-                    </StuffCategories>
-
-                    <CostStuffCount>1</CostStuffCount>
-
+                    <!-- 普通水果 -->
+                    <CostItems>
+                        <Item name="Item_Fruit" count="1"/>
+                    </CostItems>
                 </BeMade>
 
             </Item>

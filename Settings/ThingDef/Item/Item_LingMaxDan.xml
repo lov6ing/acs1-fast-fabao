@@ -1,0 +1,59 @@
+<ThingDefs>
+    <List>
+
+        <ThingDef Type="Item"
+                  Name="Item_ACS1_LingMaxDan"
+                  Parent="DanBase">
+
+            <MaxStack>1000</MaxStack>
+
+            <ThingName>筑灵丹</ThingName>
+
+            <TexPath>Spr\Object\danyao_ds.png</TexPath>
+
+            <Desc>
+                服用后永久增加1000000点灵力上限。
+            </Desc>
+
+            <Rate>12</Rate>
+
+            <Beauty>15</Beauty>
+
+            <ElementKind>None</ElementKind>
+
+            <Item Lable="Dan">
+
+                <PhysicalLables>
+                    <li>Smooth2</li>
+                    <li>Hard1</li>
+                    <li>GreatThing_Ling</li>
+                </PhysicalLables>
+
+                <Elixir>
+
+                    <!-- 永久增加灵力上限 -->
+                    <Modifier>ACS1_LingMaxPermanentModifier</Modifier>
+
+                </Elixir>
+
+                <BeMade>
+
+                    <WorkToMake>10</WorkToMake>
+
+                    <CostItems>
+                        <Item name="Item_MagicHerb" count="1"/>
+                    </CostItems>
+
+                </BeMade>
+
+            </Item>
+
+            <Element>
+                <Kind>None</Kind>
+                <Value>0</Value>
+            </Element>
+
+        </ThingDef>
+
+    </List>
+</ThingDefs>

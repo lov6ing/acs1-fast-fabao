@@ -60,8 +60,8 @@
                 <!-- 移动速度 +1000% -->
                 <li Name="MoveSpeed" AddP="10.0"/>
 
-                <!-- 历练飞行速度 +1000 -->
-                <li Name="WorldMapFlySpeedAddP" AddV="1000"/>
+                <!-- 历练飞行速度 +1000% -->
+                <li Name="WorldMapFlySpeedAddP" AddP="10.0"/>
 
                 <!-- 总体工作效率 +1600% -->
                 <li Name="GlobalEfficiency" AddP="16.0"/>

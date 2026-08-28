@@ -111,7 +111,7 @@
             <Properties>
 
                 <!-- 只有筑灵丹拥有这项 -->
-                <li Name="NpcLingMaxValue" BAddV="1000000"/>
+                <li Name="NpcLingMaxValue" AddV="1000000"/>
 
             </Properties>
 

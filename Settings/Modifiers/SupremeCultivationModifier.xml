@@ -55,13 +55,10 @@
                 <li Name="InspirationCoefficient" AddP="10"/>
 
 
-                <!-- ==================== 移动/工作/历练 ==================== -->
+                <!-- ==================== 移动/工作 ==================== -->
 
                 <!-- 移动速度 +1000% -->
                 <li Name="MoveSpeed" AddP="10.0"/>
-
-                <!-- 历练飞行速度 +1000% -->
-                <li Name="WorldMapFlySpeedAddP" AddP="10.0"/>
 
                 <!-- 总体工作效率 +1600% -->
                 <li Name="GlobalEfficiency" AddP="16.0"/>

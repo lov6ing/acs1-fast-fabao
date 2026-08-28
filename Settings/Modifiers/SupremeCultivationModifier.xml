@@ -70,10 +70,10 @@
                 <!-- ==================== 温度耐受 ==================== -->
 
                 <!-- 最高耐受温度 +100 -->
-                <li Name="ToleranceTMax" AddV="100"/>
+                <li Name="ToleranceTMax" AddV="900"/>
 
                 <!-- 最低耐受温度 -100 -->
-                <li Name="ToleranceTMin" AddV="-100"/>
+                <li Name="ToleranceTMin" AddV="-200"/>
 
 
                 <!-- ==================== 精力/精元 ==================== -->
@@ -82,7 +82,7 @@
                 <li Name="FatigueConsumeConstant" AddV="-0.9999"/>
 
                 <!-- 精元转化效率 -->
-                <li Name="NutritionToJingYuanK" AddV="0.99"/>
+                <li Name="NutritionToJingYuanK" AddV="9999"/>
 
             </Properties>
 

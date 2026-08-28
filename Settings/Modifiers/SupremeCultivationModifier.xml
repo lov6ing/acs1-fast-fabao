@@ -55,10 +55,13 @@
                 <li Name="InspirationCoefficient" AddP="10"/>
 
 
-                <!-- ==================== 移动/工作 ==================== -->
+                <!-- ==================== 移动/工作/历练 ==================== -->
 
                 <!-- 移动速度 +1000% -->
                 <li Name="MoveSpeed" AddP="10.0"/>
+
+                <!-- 历练飞行速度 +1000 -->
+                <li Name="WorldMapFlySpeedAddP" AddV="1000"/>
 
                 <!-- 总体工作效率 +1600% -->
                 <li Name="GlobalEfficiency" AddP="16.0"/>
@@ -69,10 +72,10 @@
 
                 <!-- ==================== 温度耐受 ==================== -->
 
-                <!-- 最高耐受温度 +100 -->
+                <!-- 最高耐受温度 +900 -->
                 <li Name="ToleranceTMax" AddV="900"/>
 
-                <!-- 最低耐受温度 -100 -->
+                <!-- 最低耐受温度 -200 -->
                 <li Name="ToleranceTMin" AddV="-200"/>
 
 
@@ -81,7 +84,7 @@
                 <!-- 精力消耗进一步降低 -->
                 <li Name="FatigueConsumeConstant" AddV="-0.9999"/>
 
-                <!-- 精元转化效率 -->
+                <!-- 精元转化效率：极高值测试 -->
                 <li Name="NutritionToJingYuanK" AddV="9999"/>
 
             </Properties>

@@ -45,6 +45,9 @@
 
                 <!-- ==================== 修炼/领悟 ==================== -->
 
+                <!-- 真潜符同款：潜力 +10000 -->
+                <li Name="PotentialOfBasepracticeAddValue" AddV="10000"/>
+
                 <!-- 心境 -->
                 <li Name="MindStateBaseValue" AddV="100"/>
 

@@ -45,18 +45,12 @@
 
                 <!-- ==================== 修炼/领悟 ==================== -->
 
-                <!-- 真潜符同款：潜力 +10000 -->
-                <li Name="PotentialOfBasepracticeAddValue" BAddV="10000"/>
-
                 <!-- 心境 -->
-                <li Name="MindStateBaseValue" AddV="100"/>
+                <li Name="MindStateBaseValue" AddV="200"/>
 
                 <!-- 修炼速度 -->
                 <li Name="DeepPracticeSpeedSpecialCoefficient" AddV="999999"/>
-
-                <!-- 领悟/参悟相关倍率 -->
-                <li Name="InspirationCoefficient" AddP="10"/>
-
+                
 
                 <!-- ==================== 移动/工作 ==================== -->
 
